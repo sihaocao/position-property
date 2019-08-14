@@ -1,0 +1,78 @@
+body * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navigation-bar {
+    background-color: #808080;
+    position: fixed;
+    padding: 10px 60px;
+    margin: 0;
+    height: 70px;
+    width: 100%;
+    display: block;
+}
+
+.navigation-bar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.navigation-list {
+    list-style: none;
+    display: inline-block;
+}
+
+.navigation-items {
+    display: inline-block;
+    padding-right: 5px;
+    border-right: 2px solid black;
+    position: relative;
+    bottom: 15px;
+    color: #3D47E4;
+}
+
+.navigation-items a:hover {
+    color: black;
+}
+
+body {
+    background: url(https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.4.3_the_position_property/outerspace_landscape.jpeg) no-repeat;
+    background-size: cover;
+}
+
+main {
+    padding-top: 100px;
+}
+
+.dashed-box {
+    border: 10px white dotted;
+    width: 600px;
+    height: 300px;
+    position: relative;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cat, .dog {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.cat {
+    top: -100px;
+    left: -100px;
+}
+
+.dog {
+    bottom: -100px;
+    right: -100px;
+}
